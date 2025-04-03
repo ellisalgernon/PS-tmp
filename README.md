@@ -49,6 +49,38 @@ Your <ins>**downloads**</ins> can be on a different drive than the installation,
 
 After the installation has finished, the downloads can technically be deleted, but it is recommended to keep them on an external drive, instead, if you are short on space. You will need them again when updating to a new version. Repairing the installation (by re-running the installation via WJ) will require only the downloads of the mods that are broken, usually.
 
+## 2.3 Other
+* **Windows**
+  * Your operating system must be up-to-date; at *least* Windows 10 version 22H2 build 19045.5198.
+* **Antivirus/Firewall**
+  * Third-party AVs will interfere during the installation and often even during play. Creating exceptions is usually not sufficient, and not recommended for security reasons. Windows Defender is fine and all you need nowadays; uninstall anything else.
+* **Overlays**
+  * Game overlays have been under suspicion to cause instability, so it is generally recommended to turn them off. That includes the Steam overlay.
+* **[Skyrim Special Edition (Steam)](https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/)**
+  * Wabbajack does not support pirated copies of the game, and neither do we.
+* **[Nexus Account](https://www.nexusmods.com/)**
+  * Premium recommended for automated downloads and higher download speed. Otherwise, be prepared to click "*manual download*" almost 5,000 times.
+* **~~[VectorPlexus Account](https://vectorplexis.com/)~~** 
+  * VectorPlexus is permanently down, please join the Discord to acquire any missing mods from the backup links.
+* **[Mega Account](https://mega.io/)**
+  * Required for some files not hosted on Nexus.
+* **[LoversLab Account](https://www.loverslab.com/)**
+  * You no longer need to log into LoversLab in Wabbajack *before* the installation, you will be prompted *during*.
+
+## 2.4 Steam Library Location
+Your Steam library <ins>must not be located</ins> in `Program Files`, this is a special folder protected by Windows UAC, which will cause issues down the line. Follow **[this](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide)** to move your library somewhere else.
+
+> No support will be provided to people with Skyrim located in `Program Files`.
+
+## 2.5 Vanilla Skyrim Setup
+Start with a fresh installation of **[Skyrim Special Edition or Anniversary Edition](https://www.nexusmods.com/skyrimspecialedition)**. You should also clean out the "*Skyrim Special Edition*" folder in `Documents/My Games/` by deleting its contents.
+
+Launch Skyrim via Steam once: Start the game and exit once in the main menu. This will ensure any settings files required by Wabbajack are created in the Skyrim directories.
+
+Set the Game language to English - This is <ins>mandatory</ins> for installation. Open the Steam Skyrim "*Properties*" window, navigate to the "*Language*" tab and select "*English*" from the dropdown menu.
+
+After the modlist installation has finished, nothing you do to your Steam Skyrim installation will interfere with **PROJECT Skyrim**, it is its own, self-contained instance. This also means you can have several WJ modlists installed at the same time (but you cannot __merge__ them).
+
 # 3 Pre-Installation Preparations
 ## 3.1 Pagefile Configuration
 ### PROJEKT Skyrim version [0.9.0.x]
@@ -94,38 +126,6 @@ Download and install the x64 version of "*Visual Studio 2015, 2017 and 2019*" fr
 Wabbajack (WJ) requires .NET versions 5 and 8, <ins>specifically</ins>.
 
 Get them **[here](https://dotnet.microsoft.com/download/dotnet/5.0/runtime)** [<ins>both</ins> the **desktop app x64** and **console app x64**] and **[here](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x64-installer)** and install them if you do not have them already.
-
-## 3.5 Other
-* **Windows**
-  * Your operating system must be up-to-date.
-* **Antivirus/Firewall**
-  * Third-party AVs will interfere during the installation and often even during play. Creating exceptions is usually not sufficient, and not recommended for security reasons. Windows Defender is fine and all you need nowadays; uninstall anything else.
-* **Overlays**
-  * Game overlays have been under suspicion to cause instability, so it is generally recommended to turn them off. That includes the Steam overlay.
-* **[Skyrim Special Edition (Steam)](https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/)**
-  * Wabbajack does not support pirated copies of the game, and neither do we.
-* **[Nexus Account](https://www.nexusmods.com/)**
-  * Premium recommended for automated downloads and higher download speed. Otherwise, be prepared to click "*manual download*" almost 5,000 times.
-* **~~[VectorPlexus Account](https://vectorplexis.com/)~~** 
-  * VectorPlexus is permanently down, please join the Discord to acquire any missing mods from the backup links.
-* **[Mega Account](https://mega.io/)**
-  * Required for some files not hosted on Nexus.
-* **[LoversLab Account](https://www.loverslab.com/)**
-  * You no longer need to log into LoversLab in Wabbajack *before* the installation, you will be prompted *during*.
-
-## 3.6 Steam Library Location
-Your Steam library <ins>must not be located</ins> in `Program Files`, this is a special folder protected by Windows UAC, which will cause issues down the line. Follow **[this](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide)** to move your library somewhere else.
-
-> No support will be provided to people with Skyrim located in `Program Files`.
-
-## 3.7 Vanilla Skyrim Setup
-Start with a fresh installation of **[Skyrim Special Edition or Anniversary Edition](https://www.nexusmods.com/skyrimspecialedition)**. You should also clean out the "*Skyrim Special Edition*" folder in `Documents/My Games/` by deleting its contents.
-
-Launch Skyrim via Steam once: Start the game and exit once in the main menu. This will ensure any settings files required by Wabbajack are created in the Skyrim directories.
-
-Set the Game language to English - This is <ins>mandatory</ins> for installation. Open the Steam Skyrim "*Properties*" window, navigate to the "*Language*" tab and select "*English*" from the dropdown menu.
-
-After the modlist installation has finished, nothing you do to your Steam Skyrim installation will interfere with **PROJECT Skyrim**, it is its own, self-contained instance. This also means you can have several WJ modlists installed at the same time (but you cannot __merge__ them). 
 
 # 4 Installing the Modlist via Wabbajack
 Make sure you have performed all the steps above <ins>before</ins> continuing with the installation!
