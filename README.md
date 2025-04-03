@@ -53,7 +53,7 @@ After the installation has finished, the downloads can technically be deleted, b
 * **Windows**
   * Your operating system must be up-to-date; at *least* Windows 10 version 22H2 build 19045.5198.
 * **Antivirus/Firewall**
-  * Third-party AVs will interfere during the installation and often even during play. Creating exceptions is usually not sufficient, and not recommended for security reasons. Windows Defender is fine and all you need nowadays; uninstall anything else.
+  * Third-party antivirus programs often interfere with installation and gameplay. Creating exceptions is usually ineffective and not recommended for security reasons. Windows Defender is sufficient and all you need—uninstall any other antivirus software.
 * **Overlays**
   * Game overlays have been under suspicion to cause instability, so it is generally recommended to turn them off. That includes the Steam overlay.
 * **[Skyrim Special Edition (Steam)](https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/)**
@@ -65,21 +65,21 @@ After the installation has finished, the downloads can technically be deleted, b
 * **[Mega Account](https://mega.io/)**
   * Required for some files not hosted on Nexus.
 * **[LoversLab Account](https://www.loverslab.com/)**
-  * You no longer need to log into LoversLab in Wabbajack *before* the installation, you will be prompted *during*.
+  * You no longer need to log into LoversLab in Wabbajack *before* the installation, you will be prompted *during*, instead.
 
 ## 2.4 Steam Library Location
 Your Steam library <ins>must not be located</ins> in `Program Files`, this is a special folder protected by Windows UAC, which will cause issues down the line. Follow **[this](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide)** to move your library somewhere else.
 
-> No support will be provided to people with Skyrim located in `Program Files`.
+> No support will be provided for Skyrim installations located in `Program Files`.
 
 ## 2.5 Vanilla Skyrim Setup
 Start with a fresh installation of **[Skyrim Special Edition or Anniversary Edition](https://www.nexusmods.com/skyrimspecialedition)**. You should also clean out the "*Skyrim Special Edition*" folder in `Documents/My Games/` by deleting its contents.
 
 Launch Skyrim via Steam once: Start the game and exit once in the main menu. This will ensure any settings files required by Wabbajack are created in the Skyrim directories.
 
-Set the Game language to English - This is <ins>mandatory</ins> for installation. Open the Steam Skyrim "*Properties*" window, navigate to the "*Language*" tab and select "*English*" from the dropdown menu.
+Set the Game language to English - this is <ins>mandatory</ins> for installation. Open the Steam Skyrim "*Properties*" window, navigate to the "*Language*" tab and select "*English*" from the dropdown menu.
 
-After the modlist installation has finished, nothing you do to your Steam Skyrim installation will interfere with **PROJECT Skyrim**, it is its own, self-contained instance. This also means you can have several WJ modlists installed at the same time (but you cannot __merge__ them).
+Once the modlist installation is complete, any changes to your Steam Skyrim installation will not affect **PROJECT Skyrim** — it is a self-contained instance. This also means you can have multiple WJ modlists installed simultaneously, though they __**cannot be merged**__.
 
 # 3 Pre-Installation Preparations
 ## 3.1 Pagefile Configuration
@@ -110,7 +110,7 @@ For PS version [0.9.0.x], the Creation Kit must be <ins>downgraded</ins> as foll
 * There, paste `download_depot 1946180 1946183 2725999750516785042`  and press `Enter`.
 * Then, paste `download_depot 1946180 1946182 926444740758492387` and press `Enter`.
 
-The console will tell you where it has placed the depot folders; open them and place all files <ins>from within</ins> into `%SteamLibraryLocation%\steamapps\common\Skyrim Special Edition\`, overwriting when prompted. If <ins>not</ins> prompted, you did it wrong...
+The console will tell you where it has placed the depot folders; open them and place all files <ins>from within</ins> into `%SteamLibraryLocation%\steamapps\common\Skyrim Special Edition\`, overwriting when prompted. If you are <ins>not</ins> prompted, you did it wrong...
 
 ### PROJEKT Skyrim version [0.9.1.x]
 For PS version [0.9.1.x], you do not need to downgrade the Creation Kit anymore. If you downgraded the CK previously:
