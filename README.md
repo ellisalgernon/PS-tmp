@@ -51,7 +51,21 @@ After the installation has finished, the downloads can technically be deleted, b
 
 ## 2.3 Other
 * **Windows**
-  * Your operating system must be up-to-date; at *least* Windows 10 version 22H2 build 19045.5198.
+  * Your operating system must be up-to-date:
+    * **Windows 11**: Service pack 23H2 or 24H2 and no pending updates
+    * **Windows 10** - Home/Pro: Service pack 22H2 build 19045.5198
+    * **Windows 10 LTSC, IoT Enterprise & custom ISOs** (including the use of debloaters): These do not support .NET 9 which Wabbajack depends on
+  * To find what version of windows you are running: 
+    * Press `Windows + R`
+    * Type `Winver` and press `Enter`
+* **.NET Framework**
+  * Wabbajack and Mod Organiser depend on specific versions of the .NET framework:
+    * [.NET 4.8](<https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-web-installer>)
+    * [.NET 8](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x64-installer>)
+    * [.NET 9](<https://download.visualstudio.microsoft.com/download/pr/b0032fde-aac9-4c3e-b78c-4bd605910241/8d2aa21baac4aef9b996671cd8a48fb2/dotnet-sdk-9.0.202-win-x64.exe>)
+* **Visual Studio C++ Runtime**
+  * Wabbajack and Mod Organiser depend on the latest release of VS C++:
+    * [Visual Studio C++](<https://aka.ms/vs/17/release/vc_redist.x64.exe>)
 * **Antivirus/Firewall**
   * Third-party antivirus programs often interfere with installation and gameplay. Creating exceptions is usually ineffective and not recommended for security reasons. Windows Defender is sufficient and all you need—uninstall any other antivirus software.
 * **Overlays**
@@ -117,18 +131,10 @@ For PS version [0.9.1.x], you do not need to downgrade the Creation Kit anymore.
 
 * Verify/update the SSE Creation Kit via Steam to restore it to the latest version.
 
-## 3.3 Microsoft Visual C++ Redistributable Package
-Mod Organiser 2 (MO) and Wabbajack (WJ) require Visual Studio to be installed.
-
-Download and install the x64 version of "*Visual Studio 2015, 2017 and 2019*" from **[here](https://aka.ms/vs/16/release/vc_redist.x64.exe)**.
-
-## 3.4 Microsoft .NET Framework
-Wabbajack (WJ) requires .NET versions 5 and 8, <ins>specifically</ins>.
-
-Get them **[here](https://dotnet.microsoft.com/download/dotnet/5.0/runtime)** [<ins>both</ins> the **desktop app x64** and **console app x64**] and **[here](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.4-windows-x64-installer)** and install them if you do not have them already.
-
 # 4 Installing the Modlist via Wabbajack
-Make sure you have performed all the steps above <ins>before</ins> continuing with the installation!
+Make sure you have performed all the steps above <ins>before</ins> continuing with the installation! 
+
+> Check that you have .NET framework 4.8, 8, and 9 as well as the latest VS C++ runtime installed as mentioned above in section 2.3! 
 
 ## 4.1 Create Folders
 Create three new folders at (or close to) the root of your drive:
