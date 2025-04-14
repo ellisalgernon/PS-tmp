@@ -207,7 +207,7 @@ There may be some mods or files missing, giving you an error; Wabbajack will let
 
 > The WJ log can also be found at `%locationOfYourWabbajackFolder%\Wabbajack\%version#%\logs\Wabbajack.current.log`.
 
-Our community has compiled a list of mods that often give users trouble. Join the Discord and find them in the *backup links channel*. Download any that you have an issue with and put them in the "*Wabbajack downloads*" directory (<ins>do not unpack them</ins>), then resume the installation process by repeating the steps under "*4.4 Run Wabbajack*".
+Our community has compiled a list of mods that often give users trouble. Join the Discord and find them in the *backup links channel*. Download any that you have an issue with and put them in the "*Wabbajack downloads*" directory (<ins>do not unpack them</ins>), then resume the installation process by <ins>restarting WJ</ins> and repeating the steps under "*4.4 Run Wabbajack*".
 
 > If you need to restart Wabbajack for any reason, you won't need to re-acquire any mods you have already downloaded, WJ will continue where it left off.
 
