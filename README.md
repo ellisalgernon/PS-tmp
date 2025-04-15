@@ -53,13 +53,15 @@ Once installation is complete, the downloaded files can technically be deleted. 
 
 ## 2.3 Other
 * **Windows**
-  * Your operating system must be up-to-date:
+  * Your operating system must be up-to-date; at least:
     * **Windows 11**: Service pack 23H2 or 24H2 and no pending updates
     * **Windows 10** - Home/Pro: Service pack 22H2 build 19045.5198
-    * **Windows 10 LTSC, IoT Enterprise & custom ISOs** (including the use of debloaters): These do not support .NET 9 which Wabbajack depends on
-  * To find what version of windows you are running: 
+    * **Windows 10 LTSC, IoT Enterprise & custom ISOs** (including the use of debloaters): these do not support .NET 9 which Wabbajack depends on
+  * To find what version of Windows you are running: 
     * Press `Windows + R`
     * Type `Winver` and press `Enter`
+* **Overclocking**
+    * Overclocking your GPU or CPU will often lead to instability and crashes. Restore your hardware to default settings.
 * **.NET Framework**
   * Wabbajack and Mod Organiser depend on specific versions of the .NET framework:
     * [.NET 4.8](<https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-web-installer>)
@@ -79,23 +81,31 @@ Once installation is complete, the downloaded files can technically be deleted. 
 * **[Nexus Account](https://www.nexusmods.com/)**
   * Premium recommended for automated downloads and higher download speed. Otherwise, be prepared to click "*manual download*" 5k times.
 * **~~[VectorPlexus Account](https://vectorplexis.com/)~~** 
-  * VectorPlexus is permanently down, please join the Discord to acquire any missing mods from the backup links.
+  * VectorPlexus is permanently down, please join the Discord to acquire any missing mods from the backup links. `no longer required for v0.9.1.x`
 * **[Mega Account](https://mega.io/)**
-  * Required for some files not hosted on Nexus.
+  * Required for some files not hosted on Nexus. `no longer required for v0.9.1.x`
 * **[LoversLab Account](https://www.loverslab.com/)**
   * You no longer need to log into LoversLab in Wabbajack *before* the installation, you will be prompted *during*, instead.
 
 ## 2.4 Steam Library Location
-Your Steam library <ins>must not be located</ins> in `Program Files`, it is a special folder protected by Windows UAC, which will cause issues down the line. Follow **[this](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide)** to move your library somewhere else.
+Your Steam library <ins>must not be located</ins> in `Program Files`, it is a special folder protected by Windows UAC, which will cause issues down the line. Follow **[this tool](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide)** to move your library somewhere else.
 
 > No support will be provided for Skyrim installations located in `Program Files`.
 
 ## 2.5 Vanilla Skyrim Setup
 You will require an up-to-date and ideally freshly validated install of **[Skyrim Special Edition or Anniversary Edition](https://www.nexusmods.com/skyrimspecialedition)**.
 
-If starting from a fresh install: Launch the game, then exit once reaching the main menu. This will ensure any settings files required by Wabbajack are created in the Skyrim directories.
+If starting from a fresh install: 
+* Launch the game from Steam.
+* Download the Creation Club content
+  * Only the free Creations included in the Special Edition upgrade are required, the others will simply not be used.
+  * Do <ins>not</ins> `alt + tab` out of the game while the files are downloading.
+* Exit the game.
 
-Set the Game languting to English - this is <ins>mandatory</ins> for installation. Open the Steam Skyrim "*Properties*" window, navigate to the "*Language*" tab and select "*English*" from the dropdown menu.
+Set the game language to English - this is <ins>mandatory</ins> for installation: 
+* Open the Steam Skyrim "*Properties*" window.
+* Navigate to the "*Language*" tab.
+* Select "*English*" from the dropdown menu.
 
 Once the modlist installation is complete, any changes to your Steam Skyrim installation will not affect **PROJECT Skyrim** — it is a self-contained instance. This also means you can have multiple WJ modlists installed simultaneously, though they __**cannot be merged**__.
 
@@ -118,9 +128,9 @@ Once the modlist installation is complete, any changes to your Steam Skyrim inst
 * As of version [0.9.1.x], the page file will be configured for you automatically towards the end of the installation process (40 GB).
 
 ## 3.2 Install SSE Creation Kit (Steam)
+### PROJEKT Skyrim version [0.9.0.x]
 Install the **[SSE Creation Kit](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/)** (free) into the same library/folder that your Steam Skyrim SE installation is located in. You do not need to run it before installing the modlist.
 
-### PROJEKT Skyrim version [0.9.0.x]
 For PS version [0.9.0.x], the Creation Kit must be <ins>downgraded</ins> as follows:
 
 * Press `Windows key + R` to open the "*run*" prompt.
@@ -131,9 +141,7 @@ For PS version [0.9.0.x], the Creation Kit must be <ins>downgraded</ins> as foll
 The console will tell you where it has placed the depot folders; open them and place all files <ins>from within</ins> into `%SteamLibraryLocation%\steamapps\common\Skyrim Special Edition\`, overwriting when prompted. If you are <ins>not</ins> prompted, you did it wrong...
 
 ### PROJEKT Skyrim version [0.9.1.x]
-For PS version [0.9.1.x], you do not need to downgrade the Creation Kit anymore. If you downgraded the CK previously:
-
-* Verify/update the SSE Creation Kit via Steam to restore it to the latest version.
+For PS version [0.9.1.x], Creation Kit is no longer required.
 
 # 4 Installing the Modlist via Wabbajack
 Make sure you have performed all the steps above <ins>before</ins> continuing with the installation! 
@@ -272,6 +280,8 @@ After closing the pop-up, to begin the game:
 
 Once you are finished, click "*Begin Adventure*", you will now be moved to character creation.
 
+> Before getting started, check out the **sticky posts** in the support channels on discord for known bug fixes, some of which may require a new game.
+
 # 6 Final Things
 Skyrim's script engine struggles already when dealing with a vanilla game - in a modded experience, any little instability becomes magnified. Therefore: Do not change cells multiple times in quick succession, give scripts a chance to <ins>**catch up**</ins>.
 
@@ -291,14 +301,20 @@ To avoid save game corruption, follow these guidelines for **safe saving practic
   * during animations
 
 ## 6.2 Death Alternatives
-Keep a <ins>**death alternative**</ins> enabled to prevent reloads on death:
-* `Stay in the Fight` [v0.9.0.x]
-* `Soul Resurrection` [v0.9.1.x]
+Keep a <ins>**death alternative**</ins> enabled to prevent reloads on death.
 
-> PS version [0.9.0.6] "*Stay in the Fight*" is currently bugged and must be disabled and re-enabled via its MCM!
+### PROJEKT Skyrim version [0.9.0.x]
+* `Stay in the Fight`
+
+"*Stay in the Fight*" is currently bugged and must be disabled and re-enabled via its MCM:
 * Go to the "*Stay in the Fight*" MCM, find "*Pact with the Gods*" and disable it.
 * Close the menu completely.
 * Go back to the MCM and re-enable "*Pact with the Gods*".
+
+> If you do not do this, your game will crash when you die, and/or your save will get corrupted!
+
+### PROJEKT Skyrim version [0.9.1.x]
+* `Soul Resurrection`
 
 # 7 Discord
 For additional information and support, we invite you to join our **[Discord](https://discord.gg/hBMst84gUp)** server. There, you'll find <ins>FAQs</ins> addressing common questions, <ins>support</ins> channels for assistance with installation, gameplay, and modifications, as well as sticky posts with the <ins>latest important information</ins>.
