@@ -262,6 +262,7 @@ Starting from version [0.9.1.x], ENB Frame Generation is active by default.
     * In the top left pane, expand the `Performance` section.
     * Enable the option `Force Enable Frame Generation`.
     * Press `L-Shift + Enter` to close the ENB GUI.
+    * May require a game reboot to take effect.
     * ![Screenshot 2025-04-17 234042](https://github.com/user-attachments/assets/f3536493-b186-4bab-93f7-eeef6d60f394)
   * If this does not work for you, disable Frame Generation in Mod Organizer:
     * Go to the separator `ENB Frame Generation and Display Tweaks Settings - ONLY FOR 120HZ or above` (use the search filter if you cannot find it).
