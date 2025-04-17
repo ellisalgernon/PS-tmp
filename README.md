@@ -343,6 +343,8 @@ Keep a <ins>**death alternative**</ins> enabled to prevent reloads on death.
 ### PROJEKT Skyrim version [0.9.1.x]
 * `Soul Resurrection`
 
+Works as intended out of the box.
+
 # 7 Discord
 For additional information and support, we invite you to join our **[Discord](https://discord.gg/hBMst84gUp)** server. There, you'll find <ins>FAQs</ins> addressing common questions, <ins>support</ins> channels for assistance with installation, gameplay, and modifications, as well as sticky posts with the <ins>latest important information</ins>.
 
