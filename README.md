@@ -261,6 +261,7 @@ Starting from version [0.9.1.x], ENB Frame Generation is active by default.
     * Press `L-Shift + Enter` to open the ENB GUI.
     * In the top left pane, expand the `Performance` section.
     * Enable the option `Force Enable Frame Generation`.
+    * Click `Save and Apply Changes` at the top of the pane.
     * Press `L-Shift + Enter` to close the ENB GUI.
     * May require a game reboot to take effect.
     * ![Screenshot 2025-04-17 234042](https://github.com/user-attachments/assets/f3536493-b186-4bab-93f7-eeef6d60f394)
