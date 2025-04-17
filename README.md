@@ -20,7 +20,7 @@ Additionally, **PROJECT Skyrim** includes <ins>optional, unintrusive adult conte
 
 > However, this means you must be of legal age in your country of residence to play **PROJECT Skyrim**; it is your responsibility to be aware of your country's age requirements.
 
-Project Skyrim requires the latest version of the **Special Edition (SE)**. You do not need - but *can* have - Anniversary Edition (AE). The **free Creation Club (CC) content** is required; it is no problem if you own/have installed paid CC content, as well, it will just not be used in this mod list.
+Project Skyrim requires the latest version of **Skyrim Special Edition (SSE)** from Steam. You do not need - but *can* have - Anniversary Edition (AE). The **free Creation Club (CC) content** is required; it is no problem if you own/have installed paid CC content, as well, it will just not be used in this mod list.
 
 # 2 System Requirements
 ## 2.1 Recommended Hardware Specs
