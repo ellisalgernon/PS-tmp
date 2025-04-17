@@ -272,8 +272,6 @@ Starting from version [0.9.1.x], ENB Frame Generation is active by default.
 
 > If you experience noticeable <ins>**input lag**</ins> while using Frame Generation at lower frame rates, you may want to turn it off. It works best when the game runs at a steady 60 FPS and is interpolated up to 120 FPS.
 
-Want it even more concise or formatted for release notes or settings tooltips?
-
 ## 4.7 Optional Mods and Modifications
 In MO you will notice a separator called `Optional Packages`, under which you will find mods that are not enabled by default. If you want to use any of them: Enable them, and check for errors (triangle in top right of MO) in case you missed any that need to be activated together. Then go to `tools -> plugin tools -> sync plugins` to send the newly enabled plugins to the appropriate spot in the load order.
 
