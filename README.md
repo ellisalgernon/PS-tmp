@@ -47,9 +47,9 @@ Keep in mind that you should avoid filling your drives to full capacity. For opt
 
 > **PROJECT Skyrim** must be installed on an <ins>**internal SSD**</ins>, it <ins>**cannot**</ins> be installed on an HDD or an external drive of any kind.
 
-Your <ins>**downloads**</ins> can be stored on a different drive than the installation—this can even be an HDD. However, network and OneDrive locations are not supported.
+Your <ins>**downloads**</ins> can be stored on a different drive than the installation — this can even be an HDD. However, network and OneDrive locations are not supported.
 
-Once installation is complete, the downloaded files can technically be deleted. Still, it is recommended to keep them on an external drive if you are low on space, as they will be needed again when updating to a new version. Repairing the installation (by re-running it via WJ) typically only requires the downloads for any broken mods.
+Once installation is complete, the downloads folder can technically be deleted. However, it is recommended to keep them on an external drive if you are low on space, as they will be needed again when updating to a new version. Repairing the installation (by re-running it via WJ) typically only requires the downloads for any broken mods.
 
 ## 2.3 Other
 * **Windows**
@@ -93,13 +93,16 @@ Your Steam library <ins>must not be located</ins> in `Program Files`, it is a sp
 > No support will be provided for Skyrim installations located in `Program Files`.
 
 ## 2.5 Vanilla Skyrim Setup
-You will require an up-to-date and ideally freshly validated install of **[Skyrim Special Edition or Anniversary Edition](https://www.nexusmods.com/skyrimspecialedition)**.
+You will require an up-to-date installation of **[Skyrim Special Edition or Anniversary Edition](https://www.nexusmods.com/skyrimspecialedition)**.
 
 If starting from a fresh install: 
 * Launch the game from Steam.
-* Download the Creation Club content
-  * Only the free Creations included in the Special Edition upgrade are required, the others will simply not be used.
-  * Do <ins>not</ins> `alt + tab` out of the game while the files are downloading.
+* Download the free Creation Club content:
+  * Fishing
+  * Rare Curios
+  * Survival Mode
+  * Saints & Seducers
+* Do <ins>not</ins> `alt + tab` out of the game while the files are downloading.
 * Exit the game.
 
 Set the game language to English - this is <ins>mandatory</ins> for installation: 
@@ -348,7 +351,7 @@ Keep a <ins>**death alternative**</ins> enabled to prevent reloads on death.
 Works as intended out of the box.
 
 # 7 Discord
-For additional information and support, we invite you to join our **[Discord](https://discord.gg/hBMst84gUp)** server. There, you'll find <ins>FAQs</ins> addressing common questions, <ins>support</ins> channels for assistance with installation, gameplay, and modifications, as well as sticky posts with the <ins>latest important information</ins>.
+For additional information and support, we invite you to join our **[Discord](https://discord.gg/hBMst84gUp)** server. There, you will find <ins>FAQs</ins> addressing common questions, <ins>support</ins> channels for assistance with installation, gameplay, and modifications, as well as sticky posts with the <ins>latest important information</ins>.
 
 If you fail to join successfully, a bot will inform you of the reason (provided your DMs are open). Your account must be at least 2 days old to join, and you will need to complete a verification step within 10 minutes of joining. 
 
