@@ -144,7 +144,7 @@ For PS version [0.9.0.x], the Creation Kit must be <ins>downgraded</ins> as foll
 The console will tell you where it has placed the depot folders; open them and place all files <ins>from within</ins> into `%SteamLibraryLocation%\steamapps\common\Skyrim Special Edition\`, overwriting when prompted. If you are <ins>not</ins> prompted, you did it wrong...
 
 ### PROJEKT Skyrim version [0.9.1.x]
-For PS version [0.9.1.x], Creation Kit is no longer required.
+For PS version [0.9.1.x], Creation Kit is <ins>no longer required</ins>.
 
 # 4 Installing the Modlist via Wabbajack
 Make sure you have performed all the steps above <ins>before</ins> continuing with the installation! 
