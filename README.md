@@ -37,10 +37,10 @@ There are three versions of the Skyrim `.ini` configuration files available on N
 ## 2.3 Disk Space Requirements
 * Disk Space as of PS version [0.9.1.x]:
    *  10 GB for the WJ PS file from Nexus
-   * 300 GB for the mod downloads
-   * 450 GB for the installation folder
+   * 265 GB for the mod downloads
+   * 445 GB for the installation folder
    *  40 GB for the page file
-*  ...**so a total of 800 GB**
+*  ...**so a total of 760 GB**
    * During the installation process, as archives get unpacked and files moved around, there will be some *temporary* overhead space needed.
  
 Keep in mind that you should avoid filling your drives to full capacity. For optimal performance and system stability, it is generally recommended to maintain at least 10–15% of free space.
