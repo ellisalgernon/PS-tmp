@@ -233,8 +233,9 @@ Our community has compiled a list of mods that often give users trouble. Join th
     * Once the files have been downloaded, rerun the Wabbajack installation.
   * If the file name was <ins>upper-case-C "Curios"</ins>:
     * Launch Skyrim SSE via Steam.
-    * Select "*Creations*" from the main menu.
-    * Search for `Rare Curios` and download them.
+    * Click on `Creations` in the main menu.
+    * Select `Options` from the menu at the bottom.
+    * Select `Download all owned Creation Club Creations`.
     * DO NOT Alt+Tab out, leave the game window active until the download is finished.
     * Exit the game, DO NOT verify game files.
     * Rerun the Wabbajack installation.
