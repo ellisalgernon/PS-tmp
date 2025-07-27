@@ -83,7 +83,7 @@ Once installation is complete, the downloads folder can technically be deleted. 
 * **Antivirus/Firewall**
   * Third-party antivirus programs often interfere with installation and gameplay. Creating exceptions is usually ineffective and not recommended for security reasons. Windows Defender is sufficient and all you need — uninstall any other antivirus software.
 * **OneDrive**
-  * Ensure that none of the folders involved are OneDrive locations - if  your `My Documents` folder (where your save files are being stored) is synchronized with OneDrive, it will lead to memory access issues.
+  * Ensure that none of the folders involved are OneDrive locations - if  your `My Documents` folder (where your save files are being stored) is synchronized with OneDrive, it will lead to memory access issues and potential save corruption.
 * **Overlays**
   * Game overlays have been under suspicion to cause instability, so it is generally recommended to turn them off.
 * **[Skyrim Special Edition (Steam)](https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/)**
