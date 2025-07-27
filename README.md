@@ -35,14 +35,24 @@ There are three versions of the Skyrim `.ini` configuration files available on N
 > The **PROJECT Skyrim** `.ini` files are located at `%ProjectSkyrimLocation%\profiles\Default`. 
 
 ## 2.3 Disk Space Requirements
-* Disk Space as of PS version [0.9.1.x]:
+### PROJEKT Skyrim version [0.9.0.x]
+* Disk Space as of PS version [0.9.0.7]:
+   *  10 GB for the WJ PS file from Nexus
+   * 220 GB for the mod downloads
+   * 350 GB for the installation folder
+   *  40 GB for the page file
+*  ...**so a total of 620 GB**
+
+### PROJEKT Skyrim version [0.9.1.x]
+* Disk Space as of PS version [0.9.1.9]:
    *  10 GB for the WJ PS file from Nexus
    * 265 GB for the mod downloads
    * 445 GB for the installation folder
    *  40 GB for the page file
 *  ...**so a total of 760 GB**
-   * During the installation process, as archives get unpacked and files moved around, there will be some *temporary* overhead space needed.
- 
+
+During the installation process, as archives get unpacked and files moved around, there will be some *temporary* overhead space needed. 
+
 Keep in mind that you should avoid filling your drives to full capacity. For optimal performance and system stability, it is generally recommended to maintain at least 10–15% of free space.
 
 > **PROJECT Skyrim** must be installed on an <ins>**internal SSD**</ins>, it <ins>**cannot**</ins> be installed on an HDD or an external drive of any kind.
@@ -84,20 +94,15 @@ Once installation is complete, the downloads folder can technically be deleted. 
   * You no longer need to log into LoversLab in Wabbajack *before* the installation, you will be prompted *during*, instead.
 * **~~[VectorPlexus Account](https://vectorplexis.com/)~~** 
   * ~~VectorPlexus is permanently down, please join the Discord to acquire any missing mods from the backup links.~~ `no longer required for v0.9.1.x`
-* **~~[Mega Account](https://mega.io/)~~**
-  * ~~Required for some files not hosted on Nexus.~~ `no longer required for v0.9.1.x`
+* **[Mega Account](https://mega.io/)**
+  * Required for some files not hosted on Nexus. `no longer required for v0.9.1.x`
 
-## 2.4 Steam Library Location
-Your Steam library <ins>must not be located</ins> in `Program Files`, it is a special folder protected by Windows UAC, which will cause issues down the line. Use **[this tool](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide)** to move your library somewhere else - DO NOT simply drag-and-drop your files.
-
-> No support will be provided for Skyrim installations located in `Program Files`.
-
-## 2.5 Vanilla Skyrim Setup
+## 2.4 Vanilla Skyrim Setup
 You will require an up-to-date installation of **[Skyrim Special Edition or Anniversary Edition](https://www.nexusmods.com/skyrimspecialedition)**.
 
 If starting from a fresh install: 
 * Launch the game from Steam.
-* Download the free Creation Club content:
+* Let it download the free Creation Club content:
   * Fishing
   * Rare Curios
   * Survival Mode
@@ -132,16 +137,7 @@ Once the modlist installation is complete, any changes to your Steam Skyrim inst
 
 ## 3.2 Install SSE Creation Kit (Steam)
 ### PROJEKT Skyrim version [0.9.0.x]
-Install the **[SSE Creation Kit](https://store.steampowered.com/app/1946180/Skyrim_Special_Edition_Creation_Kit/)** (free) into the same library/folder that your Steam Skyrim SE installation is located in. You do not need to run it before installing the modlist.
-
-For PS version [0.9.0.x], the Creation Kit must be <ins>downgraded</ins> as follows:
-
-* Press `Windows key + R` to open the "*run*" prompt.
-* Paste `steam://open/console` and press `Enter` to open the Steam console.
-* There, paste `download_depot 1946180 1946183 2725999750516785042`  and press `Enter`.
-* Then, paste `download_depot 1946180 1946182 926444740758492387` and press `Enter`.
-
-The console will tell you where it has placed the depot folders; open them and place all files <ins>from within</ins> into `%SteamLibraryLocation%\steamapps\common\Skyrim Special Edition\`, overwriting when prompted. If you are <ins>not</ins> prompted, you did it wrong...
+For PS version [0.9.0.7], Creation Kit is <ins>no longer required</ins>.
 
 ### PROJEKT Skyrim version [0.9.1.x]
 For PS version [0.9.1.x], Creation Kit is <ins>no longer required</ins>.
@@ -281,7 +277,7 @@ Starting from version [0.9.1.x], ENB Frame Generation is active by default.
 ## 4.7 Optional Mods and Modifications
 In MO you will notice a separator called `Optional Packages`, under which you will find mods that are not enabled by default. If you want to use any of them: Enable them, and check for errors (triangle in top right of MO) in case you missed any that need to be activated together. Then go to `tools -> plugin tools -> sync plugins` to send the newly enabled plugins to the appropriate spot in the load order.
 
-> The mods pane should be ordered by the `Priority` column (far right).
+> The mods pane must be ordered by the `Priority` column (far right).
 
 The list is structured so that mod order corresponds to plugin order. If you want to add any mods, yourself: <ins>**Group similar mods together**</ins>. You can use `RMB -> Send to... -> Separator` to quickly move your additions to the appropriate section. Then, sync the order using `tools -> plugin tools -> sync plugins`. It is good practice to prefix custom additions with [NoDelete] to prevent WJ from removing them if re-run, and to make them easy to find via the search filter.
 
