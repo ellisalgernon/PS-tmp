@@ -59,7 +59,7 @@ Keep in mind that you should avoid filling your drives to full capacity. For opt
 
 Your <ins>**downloads**</ins> can be stored on a different drive than the installation — this can even be an HDD. However, network and OneDrive locations are not supported.
 
-Once installation is complete, the downloads folder can technically be deleted. However, it is recommended to keep them on an external drive if you are low on space, as they will be needed again when updating to a new version. Repairing the installation (by re-running it via WJ) typically only requires the downloads for any broken mods.
+Once installation is complete, the downloads folder can technically be deleted. However, it is recommended to keep them on an external drive if you are low on space, as they will be needed again when updating to a new version. Repairing the installation (by re-running it via WJ) only requires the downloads for any broken mods.
 
 ## 2.3 Other
 * **Windows**
