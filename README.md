@@ -93,7 +93,7 @@ Once installation is complete, the downloads folder can technically be deleted. 
 * **[LoversLab Account](https://www.loverslab.com/)**
   * You no longer need to log into LoversLab in Wabbajack *before* the installation, you will be prompted *during*, instead.
 * **~~[VectorPlexus Account](https://vectorplexis.com/)~~** 
-  * ~~VectorPlexus is permanently down, please join the Discord to acquire any missing mods from the backup links.~~ `no longer required for v0.9.1.x`
+  * ~~VectorPlexus is permanently down, please join the Discord to acquire any missing mods from the backup links.~~ `no longer required from v0.9.0.7 upwards, site is dead`
 * **[Mega Account](https://mega.io/)**
   * Required for some files not hosted on Nexus. `no longer required for v0.9.1.x`
 
