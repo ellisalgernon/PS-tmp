@@ -51,7 +51,7 @@ There are three versions of the Skyrim `.ini` configuration files available on N
    *  40 GB for the page file
 *  ...**so a total of 760 GB**
 
-During the installation process, as archives get unpacked and files moved around, there will be some *temporary* overhead space needed. 
+During the installation process, as archives get unpacked and files moved around, there will be some *temporary* overhead space needed. As much as 30GB has been reported.
 
 Keep in mind that you should avoid filling your drives to full capacity. For optimal performance and system stability, it is generally recommended to maintain at least 10–15% of free space.
 
