@@ -156,7 +156,7 @@ Create three new folders at (or close to) the root of your drive:
 * `Wabbajack`
 * `Wabbajack Downloads`
 
-WJ will delete **everything** in the installation folder - including itself - that it does not expect to be there! 
+WJ will delete <ins>everything</ins> in the installation folder - including itself - that it does not expect to be there! 
 
 > The downloads folder is theoretically exempt from this - but to be on the safe side, do **not** put it inside the installation folder, even if WJ suggests this automatically.
 
