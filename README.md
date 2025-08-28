@@ -245,7 +245,7 @@ Our community has compiled a list of mods that often give users trouble. Join th
 If you are still having issues, join our **[Discord](https://discord.gg/hBMst84gUp)** server and check out the <ins>*faq-installation*</ins> and the <ins>*installation support channel*</ins>.
 
 ## 4.6 INI files
-Now choose the correct `.ini` files for your setup: Extract the .zip archive with the `.ini` files you downloaded from Nexus; go to the subfolder with your screen's native resolution, and then choose a performance preset.
+Now choose the correct `.ini` files for your setup: Extract the .zip archive with the `.ini` files you downloaded from Nexus; go to the subfolder with your screen's native resolution (note: ultra-widescreen resolution will require additional patches to be activated, see "Optional Mods and Modifications"), and then choose a performance preset.
 
 Copy the three files contained within to `%ProjectSkyrimLocation%\profiles\Default`, overwriting the existing files:
 * `Skyrim.ini`
