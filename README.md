@@ -176,7 +176,7 @@ Download the **PROJECT Skyrim Wabbajack files** and the **ini files** **[here](h
 Then extract the `PROJECT Skyrim x.x.x.x.zip` file.
 * It will contain:
   * `PROJECT SKYRIM.wabbajack`
-  * `PROJECT SKYRIM.wabbajack.meta.json`
+  * `PROJECT SKYRIM.wabbajack.meta.json` (optional)
 
 ## 4.4 Run Wabbajack
 Open `Wabbajack.exe` in your "*Wabbajack*" folder. 
