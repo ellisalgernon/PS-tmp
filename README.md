@@ -148,7 +148,7 @@ For PS version [0.9.1.x], Creation Kit is <ins>no longer required</ins>.
 # 4 Installing the Modlist via Wabbajack
 Make sure you have performed all the steps above <ins>before</ins> continuing with the installation! 
 
-> Check that you have .NET framework 4.8, 8, and 9 as well as the latest VS C++ runtime installed as mentioned above in section 2.3! 
+> When updating the modlist, the steps are the same as for installing it the first time. Due to a rare bug with WJ, it is however recommended to start out with an <ins>empty</ins> installation folder (caveat: any manually made additions will be lost this way). You may keep your downloads folder - just keep in mind that unused downloads are not cleared out automatically, so eventually you will end up with a lot of wasted space.
 
 ## 4.1 Create Folders
 Create three new folders at (or close to) the root of your drive:
