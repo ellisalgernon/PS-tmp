@@ -148,7 +148,7 @@ For PS version [0.9.1.x], Creation Kit is <ins>no longer required</ins>.
 # 4 Installing the Modlist via Wabbajack
 Make sure you have performed all the steps above <ins>before</ins> continuing with the installation! 
 
-> When updating the modlist, the steps are the same as for installing it the first time. Due to a rare bug with WJ, it is however recommended to start out with an <ins>empty</ins> installation folder (caveat: any manually made additions will be lost this way). You may keep your downloads folder - just keep in mind that unused downloads are not cleared out automatically, so eventually you will end up with a lot of wasted space.
+> When **<ins>updating</ins>** the modlist, the steps are the same as for installing it the first time. Due to a rare bug with WJ, it is however recommended to start out with an <ins>empty</ins> installation folder (caveat: any manually made changes will be lost this way). You may retain your downloads folder - just keep in mind that unused downloads are not cleared out automatically, so eventually you will end up with a lot of wasted space.
 
 ## 4.1 Create Folders
 Create three new folders at (or close to) the root of your drive:
