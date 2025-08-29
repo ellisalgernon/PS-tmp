@@ -325,7 +325,7 @@ To avoid save game corruption, follow these guidelines for **safe saving practic
  
 * Never <ins>**quicksave**</ins> (even if you have the ability to do so, and definitely don't turn it back on if it's off).
 * Never <ins>**reload**</ins> in game - quit to desktop and boot up the game fresh if you want to load a different save.
-* Never <ins>**overwrite**</ins> a save, new saves only.
+* Never <ins>**overwrite**</ins>, new saves only - redundancy is your friend.
 * Do not save during <ins>**script-heavy**</ins> moments, such as:
   * during or immediately after combat
   * moving at high speeds
